@@ -1,36 +1,42 @@
 
-public class Animal {
+  public class Animal {
     
     String name;
     
-    void Eat(){
+    
+  void Eat(){
+        
         System.out.println("Animal is Eating");
+        
     }
 
     
-static class Dog extends Animal{
+ static class Dog extends Animal{
     
     String breed;
     
-    void bark(){
+    
+ void bark(){
+        
         System.out.println("Dog is Barking");
+        
     }
     
-static class main{
+  static class main{
     
-    public static void main(String[] args){
+  public static void main(String[] args){
         
         Dog d1 = new Dog();
+        
         d1.name = "Tommy";
+        
         d1.breed = "PitBull";
+        
         d1.bark();
+        
         d1.Eat();
-    }
+        
 }
-    
-    
-}
-    
-    
-    
+}   
+}   
 }
